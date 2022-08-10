@@ -82,7 +82,7 @@ function setRes(data) {
 }
 
 exports.play = (text) => {
-    isPlay = true
+    // isPlay = true
     if (!isPlay) {
         config.text = `您好，${text}。智能语音播报一次。`
         ws = new WebSocket(wssUrl)
